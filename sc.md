@@ -310,3 +310,46 @@ Parsers, used for analyzing structured input, can be classified based on parsing
 - **LR Parsers**: Read input from Left to right and produce a Rightmost derivation.
 
 The choice of parser depends on the language's complexity and the application's needs. Regular expressions are widely used across programming languages, including Python, JavaScript, Java, and Perl.
+
+
+----------------------------------------------#lecturre mutable aur immutable wala-----------
+### Mutable and Immutable Variables
+
+In programming, variables can be **mutable** or **immutable**, which affects how they can be changed after they're created.
+
+1. **Mutable Variables**:
+   - These are variables whose values can be changed or modified after initialization.
+   - Examples: Lists, dictionaries, and sets in Python.
+   - **Risk of Mutation**: Since mutable variables can be modified, it can lead to unintended side effects, especially in concurrent or multi-threaded programs where multiple parts of the code may alter the variable.
+
+2. **Immutable Variables**:
+   - These are variables whose values cannot be changed once assigned.
+   - Examples: Strings, tuples, and integers in Python.
+   - **Benefit of Immutability**: Immutable variables are safer to use in multi-threaded applications as they prevent accidental modification, making the code more predictable and reducing bugs.
+
+---
+
+### Scenarios
+
+1. **Scenario 1: Bank Transactions (Immutability)**
+   - In financial applications, immutability is crucial for transaction records. Once a transaction is recorded, it should not be altered to ensure data integrity and prevent tampering.
+   - **Example**: Each transaction could be an immutable record in a ledger. Instead of modifying the transaction itself, any corrections would be handled by creating a new transaction to reverse or adjust the previous one.
+
+2. **Scenario 2: Social Media Posts (Mutability)**
+   - Social media platforms often allow users to edit or delete posts after they’re created, which makes posts mutable.
+   - **Risk of Mutation**: Changing a post's content can alter the context of comments or reactions, which may lead to confusion among users. To manage this, platforms may keep a history of edits or alert users to the change.
+
+3. **Scenario 3: Medical Records (Immutability)**
+   - Medical records are sensitive and should be immutable to preserve an accurate, unaltered history of a patient’s health information.
+   - **Example**: Each entry in a medical record is stored as an immutable log entry. If new information needs to be added, it is recorded as a new, separate entry rather than altering previous records, ensuring a reliable audit trail.
+
+4. **Scenario 4: Inventory Management (Mutability)**
+   - Inventory levels are often mutable because they need to be updated frequently to reflect stock levels after sales, restocking, and returns.
+   - **Risk of Mutation**: The mutable nature of inventory can lead to data inconsistencies if not carefully managed, especially in multi-user systems where multiple transactions could attempt to update stock simultaneously. Using transaction locks or version control can help mitigate this risk.
+
+---
+
+### Summary
+
+- **Immutability** is beneficial for sensitive or historical data where changes should not be allowed (e.g., bank transactions, medical records).
+- **Mutability** is useful for dynamic data that needs to be updated regularly (e.g., social media posts, inventory), but careful handling is required to avoid risks of accidental or unintended changes.
