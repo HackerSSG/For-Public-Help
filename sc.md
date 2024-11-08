@@ -235,3 +235,78 @@ The scenarios provided can be analyzed using Lehman's Laws of Software Evolution
 In summary:
 
 Each scenario demonstrates how Lehman's laws guide the evolution of software. Introducing feedback systems aligns with the **Feedback System law**, while other laws like **Continuing Change** and **Increasing Complexity** highlight the need for constant adaptation. By following these principles, the software in each scenario can better evolve to meet user needs and environmental demands.
+
+
+-------------------------------------------------------------#Lecture regex wala------------------
+Regular expressions (regex) are powerful tools for matching, searching, and manipulating text based on patterns. Here’s a breakdown of the key components and concepts in regular expressions, with examples to illustrate each:
+
+---
+
+### Key Components of Regular Expressions
+
+1. **Characters**
+   - **Regular characters** represent themselves in patterns.
+   - **Example**: The regex `"apple"` will match the word "apple" in the text "I have an apple."
+
+2. **Metacharacters**
+   - Special characters with specific functions, used to define complex patterns.
+   - Common metacharacters:
+     - `.`: Matches any character (e.g., `"a.b"` matches "aab" or "acb").
+     - `*`: Matches zero or more occurrences of the preceding character (e.g., `"a*"` matches "a", "aa", or an empty string).
+     - `+`: Matches one or more occurrences of the preceding character (e.g., `"a+"` matches "a" and "aa" but not an empty string).
+     - `?`: Matches zero or one occurrence (e.g., `"a?"` matches either "a" or an empty string).
+
+3. **Character Classes**
+   - Enclosed in square brackets to specify sets of characters to match.
+   - **Example**: `[0-9]` matches any digit, while `[aeiou]` matches any vowel.
+
+4. **Anchors**
+   - Specify the position of a match in the text.
+   - `^`: Matches the start of a line (e.g., `^start` matches "start" at the beginning of a line).
+   - `$`: Matches the end of a line (e.g., `end$` matches "end" at the end of a line).
+
+5. **Quantifiers**
+   - Specify repetition for the preceding element.
+   - `{n}`: Matches exactly n times (e.g., `\d{3}` matches exactly three digits).
+   - `{n,}`: Matches at least n times.
+   - `{n,m}`: Matches between n and m times.
+   - **Example**: `\d{3}-\d{2}-\d{4}` matches Social Security numbers in the format "123-45-6789."
+
+6. **Grouping**
+   - Parentheses `()` create sub-patterns for grouping parts of the pattern.
+   - **Example**: `(apple|banana)` matches either "apple" or "banana."
+
+7. **Alternation**
+   - The `|` symbol represents choices within a pattern.
+   - **Example**: `cat|dog` matches either "cat" or "dog."
+
+8. **Escape Sequences**
+   - Backslashes `\` escape metacharacters to treat them as literals.
+   - **Example**: `\.` matches a literal period.
+
+---
+
+### Examples
+
+- **Matching Digits**: `\d{3}` will match "123" in "The code is 12345."
+- **Grouping with Alternation**: `(apple|banana)` will match "apple" or "banana" in "I like apple and banana."
+- **Escaping Special Characters**: `\\.` matches a literal period in "The price is $5.99."
+
+---
+
+### Applications of Regular Expressions
+
+1. **Data Validation**: Validate formats like email addresses, phone numbers, or Social Security numbers.
+2. **Text Parsing**: Extract information from structured or unstructured text, such as log files.
+3. **Text Searching and Replacement**: Find and replace specific words or patterns in documents or code.
+
+---
+
+### Parser Types
+
+Parsers, used for analyzing structured input, can be classified based on parsing techniques:
+- **Recursive Descent Parsers**: Parse expressions by calling functions recursively.
+- **LL Parsers**: Read input from Left to right and produce a Leftmost derivation.
+- **LR Parsers**: Read input from Left to right and produce a Rightmost derivation.
+
+The choice of parser depends on the language's complexity and the application's needs. Regular expressions are widely used across programming languages, including Python, JavaScript, Java, and Perl.
