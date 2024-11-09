@@ -410,3 +410,28 @@ The **Von Neumann architecture**, also known as **stored-program architecture**,
 - **Harvard architecture** is designed for high-speed operations by using separate memory and buses for instructions and data. It is ideal for systems requiring high performance, such as embedded systems and DSPs.
 - **Von Neumann architecture** is simpler and more flexible, but its shared memory and bus for data and instructions can lead to bottlenecks, making it more suitable for general-purpose computing systems.
 
+
+## Introduction to Jump and Call
+Jump and Call are instructions used to control the flow of execution in a program. Jump allows unconditioned transfer of control, while Call is used to invoke a function and save the return address.
+
+## Jump
+A **Jump** is an instruction that transfers control unconditionally to a specified address in the program.
+
+## Call
+A **Call** is an instruction used to invoke a function or subroutine. It saves the return address so that control can return to the point after the function finishes.
+
+## Stack
+A **Stack** is a memory structure that follows the **Last In, First Out (LIFO)** principle, used to store temporary data such as return addresses, function parameters, and local variables.
+
+## Calling a Function
+**Calling a function** refers to invoking a function or subroutine in a program, which causes the program to jump to the function’s code and execute it. Upon completion, control returns to the point after the function call.
+
+## Time Delay
+A **Time Delay** is a controlled pause in the execution of a program, often achieved using loops or timers to create a specific time interval before continuing execution.
+
+## SBI (Set Bit in I/O Register)
+**SBI** (Set Bit in I/O Register) is an instruction used to set (make high) a specific bit in an I/O register.
+
+## CBI (Clear Bit in I/O Register)
+**CBI** (Clear Bit in I/O Register) is an instruction used to clear (make low) a specific bit in an I/O register.
+
