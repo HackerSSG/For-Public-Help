@@ -1,4 +1,6 @@
-# Definitions
+# Definitions Plus Difference(3)
+
+___
 
 ## 1-Embedded System:
 Embedded System Design refers to the process of creating specialized computing systems that are integrated into larger devices. These systems are designed to perform specific functions or tasks and are usually constrained by factors like power consumption, size, and performance.
@@ -10,7 +12,9 @@ A **smart thermostat** is an example of an embedded system. It is designed to re
 - **Specific task:** Embedded systems are built for a dedicated function (e.g., controlling an appliance).
 - **Hardware and software:** They consist of both hardware (microcontrollers, sensors) and software (embedded programs).
 - **Real-time operation:** Many embedded systems need to operate in real-time, like in safety-critical systems (e.g., airbags in cars).
-- 
+
+___
+
 ## 2-Microcontroller
 
 ### Definition:
@@ -24,6 +28,7 @@ An example of a microcontroller is the **Arduino** board. It has a microcontroll
 - **Control Functions:** Used in devices like home appliances, vehicles, medical equipment, and more.
 - **Programmable:** Can be programmed to perform specific functions (e.g., reading sensor data, controlling motors).
 - **Low Power:** Designed to run on low power for embedded systems.
+___
 
 ## 3-Microprocessor
 
@@ -38,6 +43,8 @@ An example of a microprocessor is the **Intel Core i7**. It is used in personal 
 - **No Built-in Peripherals:** A microprocessor typically requires additional components like memory (RAM, ROM), input/output devices, and support circuits to function properly.
 - **High Performance:** Designed for tasks that require high processing power, like running operating systems and software applications.
 - **General Purpose:** It can be used in a wide range of applications, from personal computers to smartphones.
+___
+
 
 ## 4-Classification of Embedded Systems
 
@@ -72,6 +79,7 @@ Mobile devices are portable embedded systems designed to be used on the go. They
 - **Real-time systems** require strict timing to function correctly, especially in critical applications.
 - **Networked systems** communicate with other devices and systems over a network.
 - **Mobile devices** are portable, often wireless, and equipped with sensors for a variety of applications.
+___
 
 ## 5-The Core of Embedded Systems
 
@@ -111,7 +119,9 @@ COTS components are readily available, mass-produced hardware and software that 
 - **ASICs** are custom chips built for specific tasks, offering high efficiency.
 - **COTS** components are off-the-shelf hardware/software used to speed up development.
 
-## 6-8-bit Microcontrollers
+___
+
+## 8-bit Microcontrollers
 
 ### Definition:
 8-bit microcontrollers have an 8-bit wide data bus, meaning they can process 8 bits of data at a time. They are often used in simpler applications where the processing power and memory requirements are lower.
@@ -187,6 +197,7 @@ AVR microcontrollers are a family of 8-bit and 32-bit microcontrollers developed
 - **Ease of use:** AVR microcontrollers are popular for their simplicity and ease of programming, often with development environments like **Arduino IDE**.
 - **Flexibility:** With built-in peripherals and flexible I/O options, AVR microcontrollers are versatile for a wide range of applications.
 - **Popular in DIY projects:** AVR-based boards like **Arduino Uno** are often used in educational projects, prototypes, and maker communities.
+___
 
 ## RISC vs CISC Architectures
 
@@ -260,6 +271,7 @@ CISC is a type of microprocessor architecture that uses a larger set of more com
 ### Summary:
 - **RISC** focuses on efficiency and speed by using a simpler set of instructions, resulting in faster execution and lower power consumption.
 - **CISC** allows for more complex instructions, reducing the number of instructions needed for a task but often at the cost of slower execution and higher power consumption.
+___
 
 ## Microcontroller vs Microprocessor
 
@@ -338,6 +350,7 @@ A **Microprocessor (MPU)** is a general-purpose processing unit that contains on
 - **Microcontrollers** are designed for specific, simple tasks in embedded systems, with integrated components, low power consumption, and cost-effectiveness.
 - **Microprocessors** are more powerful general-purpose processors, typically used in computing devices where high performance and versatility are required, but they need external components like memory and I/O devices to function.
 
+___
 
 
 ## Harvard vs Von Neumann Architecture
@@ -409,6 +422,7 @@ The **Von Neumann architecture**, also known as **stored-program architecture**,
 ### Summary:
 - **Harvard architecture** is designed for high-speed operations by using separate memory and buses for instructions and data. It is ideal for systems requiring high performance, such as embedded systems and DSPs.
 - **Von Neumann architecture** is simpler and more flexible, but its shared memory and bus for data and instructions can lead to bottlenecks, making it more suitable for general-purpose computing systems.
+___
 
 
 ## Introduction to Jump and Call
