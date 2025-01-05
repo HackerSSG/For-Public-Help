@@ -29,3 +29,18 @@ However, the company realizes that **$10,000** of these accounts will likely be 
 ![image](https://github.com/user-attachments/assets/d8021d3b-4a28-4027-81aa-ec29307d193e)
 
 ![image](https://github.com/user-attachments/assets/19d09ba0-7d55-434b-afb0-4e0f5935129d)
+
+
+# Q1 PROBLEM 7.6
+![image](https://github.com/user-attachments/assets/a7314e14-c49e-4eea-9245-6037ec5a98a7)
+
+
+
+# W2 7.9 HOME WORK ONE
+![image](https://github.com/user-attachments/assets/18c55e13-4cd8-48cc-81ca-7aaa241c65a0)
+
+![image](https://github.com/user-attachments/assets/f2890d44-274f-4e3e-906f-1b22fba7a1d7)
+
+
+
+![image](https://github.com/user-attachments/assets/8a715614-dd58-4d64-ad0c-2d994103bd1c)
