@@ -21,7 +21,7 @@ An **abstract data type (ADT)** is a data structure that is defined by its behav
 - **Abstract Data Type**: A data structure defined by operations, not implementation.
 
 
-```bash
+```csharp
 using System;
 
 // Abstract Class
