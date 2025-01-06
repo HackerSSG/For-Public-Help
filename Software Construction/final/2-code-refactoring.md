@@ -97,7 +97,7 @@ If you use temporary variables, extract the expression into a method to make the
 - [Refactoring Catalog](http://www.refactoring.com/catalog)
 
 # BAD CODE
-```bash
+```java
 public class Customer {
     private String name;
     private String address;
@@ -138,7 +138,7 @@ public class Customer {
 
 ```
 # GOOD CODE
-```bash
+```java
 // 1. **Rename Method**: Methods are renamed to make their purpose clearer
 public class Customer {
     private String name;
@@ -211,7 +211,8 @@ public class Customer {
     // 8. **Form Template Method**: Using template methods in MembershipType for discount and skin logic
     // This isn't fully required in this refactor because enum handles the abstraction.
 
-    // 9. **Move Method**: Moved logic for skin and discount into the enum instead of inside Customer class
+     //9. **Move Method**: Moved logic for skin and discount into the enum instead of inside Customer class
+
     public String getDiscount() {
         return membershipType.getDiscount();
     }
