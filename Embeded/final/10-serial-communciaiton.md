@@ -211,3 +211,24 @@ int main(void)
 3. Enable transmitter/receiver using **UCSRB**.
 4. Write data to **UDR** for transmission.
 5. Check **UDRE** or **RXC** in **UCSRA** to send/receive data.
+
+
+
+
+![image](https://github.com/user-attachments/assets/3b49ed4d-4140-4765-8168-b35a781c20ea)
+
+![image](https://github.com/user-attachments/assets/161744d5-089f-4191-9c7f-13a87cbbdc6d)
+
+![image](https://github.com/user-attachments/assets/8cb20b22-294c-492e-ad5d-71e170449e7a)
+
+
+![image](https://github.com/user-attachments/assets/cc83008a-7dc1-446a-9e2c-e7adc42c9587)
+
+![image](https://github.com/user-attachments/assets/aaf8ec42-c5e5-4b42-b03d-cf6932ab0091)
+
+![image](https://github.com/user-attachments/assets/8570eb62-65ae-455d-a7ad-8aacd281c88b)
+
+
+
+
+
