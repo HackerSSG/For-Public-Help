@@ -14,3 +14,9 @@
 
 
 # ALL I2C 
+![image](https://github.com/user-attachments/assets/b1d641c7-94dd-434a-a9ab-ae95ccef68c1)
+![image](https://github.com/user-attachments/assets/13c3c862-8423-48f7-95b4-907c619b82bb)
+![image](https://github.com/user-attachments/assets/2f5d24a6-ddb4-4456-bb04-87cee65b2465)
+![image](https://github.com/user-attachments/assets/65bb86a7-7bab-4bdf-ab19-7f4914bfffde)
+![image](https://github.com/user-attachments/assets/babe848e-4493-460b-9039-c42e0bf6c6c3)
+![image](https://github.com/user-attachments/assets/7d5f9578-7068-4e46-b98f-9f644e9635d5)
