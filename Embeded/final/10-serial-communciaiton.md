@@ -145,3 +145,69 @@ int main(void)
 }
 
 ```
+
+
+# AVR USART Control Registers: Key Concepts
+
+## 1. UBRR (USART Baud Rate Register)
+- **Purpose**: Sets the baud rate for communication.
+- **Division Formula**: `UBRR = (Fosc / (16 * Baud Rate)) - 1`
+- **Registers**:
+  - `UBRRL`: Lower 8 bits of UBRR.
+  - `UBRRH`: Higher 8 bits of UBRR (used when needed).
+
+---
+
+## 2. UCSRA (USART Control and Status Register A)
+- **Purpose**: Monitors the status of data transmission/reception.
+- **Key Bits**:
+  - **UDRE (Data Register Empty)**: 1 when UDR is ready for the next byte.
+  - **RXC (Receive Complete)**: 1 when new data is available in UDR.
+  - **TXC (Transmit Complete)**: 1 when the last transmission is complete.
+
+---
+
+## 3. UCSRB (USART Control and Status Register B)
+- **Purpose**: Enables specific USART features.
+- **Key Bits**:
+  - **RXEN (Receiver Enable)**: Enables the USART receiver.
+  - **TXEN (Transmitter Enable)**: Enables the USART transmitter.
+  - **RXCIE (Receive Interrupt Enable)**: Enables an interrupt when new data is received.
+  - **TXCIE (Transmit Interrupt Enable)**: Enables an interrupt when a transmission completes.
+
+---
+
+## 4. UCSRC (USART Control and Status Register C)
+- **Purpose**: Configures the data format for communication.
+- **Key Bits**:
+  - **UCSZ0 & UCSZ1**: Set data size (5, 6, 7, 8, or 9 bits).
+  - **UPM0 & UPM1**: Set parity mode (None, Even, or Odd).
+  - **USBS**: Sets the number of stop bits (1 or 2).
+
+---
+
+## 5. UDR (USART Data Register)
+- **Purpose**: Used to send and receive data.
+  - **Write** to `UDR` to transmit data.
+  - **Read** from `UDR` to receive data.
+- **Process**:
+  - Transmit: Wait until `UDRE` is set, then write to `UDR`.
+  - Receive: Wait until `RXC` is set, then read from `UDR`.
+
+---
+
+# Tips to Remember
+1. **Baud Rate (Speed)**: Controlled by **UBRR**.
+2. **Status Checking**: Monitored using **UCSRA**.
+3. **Enable Features**: Controlled by **UCSRB**.
+4. **Data Format**: Configured with **UCSRC**.
+5. **Data Send/Receive**: Always through **UDR**.
+
+---
+
+# Example Process (Step-by-Step)
+1. Set **UBRR** for baud rate.
+2. Configure **UCSRC** for data size, parity, and stop bits.
+3. Enable transmitter/receiver using **UCSRB**.
+4. Write data to **UDR** for transmission.
+5. Check **UDRE** or **RXC** in **UCSRA** to send/receive data.
