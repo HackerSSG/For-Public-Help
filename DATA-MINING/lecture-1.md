@@ -23,3 +23,17 @@ A supervised method to predict continuous numeric values.
 ### Association Analysis
 Discovers interesting relationships (associations) between variables in large datasets.  
 **Example:** Market basket analysis (e.g., if a customer buys bread, they also buy butter); recommending products based on prior purchases.
+
+### Data Mining Techniques and Their Types
+
+- **Cluster Analysis** — *Descriptive*  
+  Groups similar data points without predefined labels to understand patterns or structures.
+
+- **Classification** — *Predictive*  
+  Assigns data to predefined categories based on learned patterns from labeled data.
+
+- **Regression** — *Predictive*  
+  Predicts continuous numeric values based on input features.
+
+- **Association Analysis** — *Descriptive*  
+  Finds relationships or co-occurrence patterns among variables in datasets.
