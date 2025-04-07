@@ -114,3 +114,15 @@ Data where each record is a set of items purchased.
   `D(i, j) = (Σ|xi - xj|^p)^(1/p)` (p ≥ 1)
 - **Supremum (L∞ norm):**  
   `D(i, j) = max|xi - xj|`
+
+
+
+![image](https://github.com/user-attachments/assets/eb4ef352-dab7-48be-a027-8f3587909bc5)
+
+
+![image](https://github.com/user-attachments/assets/363a302d-d9aa-43c8-a8f4-56940e93ffb1)
+
+![image](https://github.com/user-attachments/assets/036b0fe9-83e1-4eff-af32-b36f802d950c)
+
+
+![image](https://github.com/user-attachments/assets/606e9264-b82d-428a-95ca-e1d0f087bd27)
