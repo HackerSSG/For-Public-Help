@@ -83,3 +83,102 @@ Combining these areas helps build **better, safer, and easier-to-use technology*
 
 ------------------------------------------------------------------------------------------------
 -------------------------------------lecture 2 main-------------------------------------
+## 📌 HCI Key Concepts (Very Simple)
+
+---
+
+### ✅ What is **Interaction**?
+**Definition:**  
+Interaction is how a **user and a computer system** communicate with each other.
+
+**Example:**  
+Clicking a button on a website or speaking to a voice assistant.
+
+---
+
+### 🧩 Common Terms in Interaction
+
+- **Domain:**  
+  The area of work.  
+  _Example: Online shopping._
+
+- **Goal:**  
+  What the user wants.  
+  _Example: Buy a t-shirt._
+
+- **Task:**  
+  The steps to reach the goal.  
+  _Example: Search > Add to cart > Pay._
+
+---
+
+### 🧠 Donald Norman's Model (7 Stages)
+
+1. **Establish the goal** – What do I want?  
+   _Ex: I want to send an email._
+
+2. **Formulate intention** – Plan to act.  
+   _Ex: I will open Gmail._
+
+3. **Specify actions** – Decide actions.  
+   _Ex: Move mouse, click compose._
+
+4. **Execute action** – Do the actions.  
+   _Ex: Click button, type message._
+
+5. **Perceive system state** – See system's response.  
+   _Ex: Message sent confirmation._
+
+6. **Interpret system state** – Understand what happened.  
+   _Ex: Email sent successfully._
+
+7. **Evaluate outcome** – Check if goal is achieved.  
+   _Ex: Yes, goal complete._
+
+---
+
+### ⚔️ Gulf of Execution
+
+**Definition:**  
+Gap between **what the user wants** to do and **how to do it in the system**.
+
+**Example:**  
+User wants to upload a file but can't find the upload button.
+
+---
+
+### 🧱 Gulf of Evaluation
+
+**Definition:**  
+Gap between **what the system shows** and **how the user understands it**.
+
+**Example:**  
+System shows error “code 500” – user doesn't know what it means.
+
+---
+
+### 🧮 Abowd and Beale Framework
+
+**Four parts:**
+
+1. **User** – The person using the system.  
+2. **Input** – What the user gives (keyboard, mouse, voice).  
+3. **System** – The software that processes input.  
+4. **Output** – What the system shows back (text, sound, visuals).
+
+**Example:**  
+User clicks "Play" → System receives input → Plays video on screen.
+
+---
+
+### 🪑 Ergonomics
+
+**Definition:**  
+Designing tools to fit humans — comfort, safety, and ease of use.
+
+**Example:**  
+Chair design, screen height, keyboard shape.
+
+---
+------------------------------------------------------------------------------------------------
+-------------------------------------lecture 3 main-------------------------------------
