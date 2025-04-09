@@ -229,4 +229,40 @@ Upload to App Store / Play Store.
 **Why it matters:**  
 Following these steps helps build a **useful, usable, and successful product**.
 ------------------------------------------------------------------------------------------------
--------------------------------------lecture 4 main-------------------------------------
+## ⚔️ Gulf of Execution & Gulf of Evaluation (Simple Explanation with Examples)
+
+---
+
+### 🕹️ Gulf of Execution
+
+**What is it?**  
+It is the gap between **what the user wants to do** and **how easily they can figure out how to do it using the system**.
+
+**✅ Small Gulf (Easy to Use):**  
+- **Example:** A light switch.  
+  You can clearly see how to turn it ON or OFF.
+
+**❌ Large Gulf (Hard to Use):**  
+- **Example:** A remote with too many buttons.  
+  User doesn’t know which one to press to change input.
+
+---
+
+### 👀 Gulf of Evaluation
+
+**What is it?**  
+It is the gap between **what the system shows** and **how easily the user can understand what is happening**.
+
+**✅ Small Gulf (Clear Feedback):**  
+- **Example:** A progress bar showing file upload (e.g., "Uploading 50%").
+
+**❌ Large Gulf (Unclear Feedback):**  
+- **Example:** Just a spinning wheel after clicking “Submit”.  
+  The user doesn’t know if it’s working or stuck.
+
+---
+
+**In short:**  
+- **Execution = Can I figure out how to do it?**  
+- **Evaluation = Can I understand what happened after I did it?**
+
