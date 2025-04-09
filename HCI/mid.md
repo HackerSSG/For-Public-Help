@@ -359,3 +359,33 @@ A **sequence of drawings** or **panels** that show how a user **interacts** with
 **In Short:**  
 - **Persona = Who is using the system**  
 - **Storyboard = How they use the system**
+
+---
+## 🧑‍🔬 What is Ethnography? (Simple Explanation)
+
+---
+
+### 📖 Definition:
+**Ethnography** is a **research method** where you **observe people in their real environment** to understand their behavior, culture, and needs.
+
+---
+
+### 🎯 Purpose:
+- To learn how users **really use** a product in **real life** (not just in labs).
+- Helps designers make more **user-friendly** systems.
+
+---
+
+### 🧪 Example:
+A researcher sits in a classroom to **watch how students use tablets** during a lecture — instead of just asking them.
+
+---
+
+### 🧠 Why It's Useful:
+- Gives **deep insights** into user habits.
+- Finds **hidden problems** that users may not mention.
+
+---
+
+**In short:**  
+Ethnography = **Watching users in real life** to design better systems.
