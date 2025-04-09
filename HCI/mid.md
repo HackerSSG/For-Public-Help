@@ -314,3 +314,48 @@ We don’t just see shapes and colors — we **group them into meaningful object
 **In Short:**  
 Gestalt helps designers create **clear, organized, and meaningful visuals** by using how our eyes naturally group elements.
 
+
+
+---
+## 🎭 Personas & 🎬 Storyboards (Purpose Explained Simply)
+
+---
+
+### 🎭 What is a Persona?
+
+**Definition:**  
+A **persona** is a **fictional character** that represents a **real user type**.
+
+**Purpose:**  
+- Understand user **needs**, **goals**, and **pain points**.  
+- Helps design products that **match real users**.
+
+**Example Persona:**  
+**Name:** Sara  
+**Age:** 25  
+**Job:** University Student  
+**Goal:** Find easy online study tools  
+**Pain Point:** Gets distracted easily
+
+---
+
+### 🎬 What is a Storyboard?
+
+**Definition:**  
+A **sequence of drawings** or **panels** that show how a user **interacts** with a product or system.
+
+**Purpose:**  
+- Visually **explain a user’s journey** step by step.  
+- Helps teams **imagine the user experience**.
+
+**Example Use:**  
+1. Sara opens a study app.  
+2. She selects a subject.  
+3. She sets a 25-minute timer.  
+4. She studies and earns a reward.
+
+---
+
+**In Short:**  
+- **Persona = Who is using the system**  
+- **Storyboard = How they use the system**
