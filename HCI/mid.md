@@ -389,3 +389,26 @@ A researcher sits in a classroom to **watch how students use tablets** during a 
 
 **In short:**  
 Ethnography = **Watching users in real life** to design better systems.
+
+---
+# Prototype
+
+A **prototype** is an early version or model of a product, system, or application, created to visualize and test its functionality, design, and user experience before the final version is developed.
+
+---
+
+## Low-Fidelity Prototype
+
+- **Definition**: A basic, simplified version of the product, often created with paper, sketches, or wireframes.
+- **Purpose**: Focuses on functionality and layout rather than visual design or interactivity.
+- **Pros**: Quick to create, easy to modify, cost-effective.
+- **Cons**: Limited interactivity, lacks detail.
+
+---
+
+## High-Fidelity Prototype
+
+- **Definition**: A detailed, interactive version of the product that closely resembles the final design.
+- **Purpose**: Demonstrates the actual look, feel, and behavior of the product.
+- **Pros**: Realistic user experience, helps in user testing.
+- **Cons**: Time-consuming, more costly to create.
