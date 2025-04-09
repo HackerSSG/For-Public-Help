@@ -266,3 +266,51 @@ It is the gap between **what the system shows** and **how easily the user can un
 - **Execution = Can I figure out how to do it?**  
 - **Evaluation = Can I understand what happened after I did it?**
 
+
+---
+## 🎨 Gestalt Principles (Simple & Clear)
+
+---
+
+### 🧠 What is Perception?
+- It's how we **recognize objects** using basic visual parts like lines, shapes, colors.
+
+---
+
+### 🌟 Main Idea of Gestalt:
+> **"The whole is greater than the sum of its parts."**
+
+We don’t just see shapes and colors — we **group them into meaningful objects**.
+
+---
+
+### 👁️ Key Gestalt Principles:
+
+1. **Proximity**  
+   - Items close together are seen as a group.  
+   **Example:** ●● ●● → Two pairs, not 4 dots.
+
+2. **Similarity**  
+   - Things that look alike (color, shape) are grouped.  
+   **Example:** 🔵🔵🔴🔴 → Two groups by color.
+
+3. **Continuity**  
+   - We prefer smooth lines/paths, not sharp angles.  
+   **Example:** A curved line continues smoothly.
+
+4. **Closure**  
+   - We fill in missing parts to see a whole.  
+   **Example:** A circle with a gap still looks like a circle.
+
+5. **Figure/Ground**  
+   - We separate the main object (figure) from the background.  
+   **Example:** White vase between two black faces.
+
+6. **Symmetry & Order**  
+   - Symmetrical and orderly shapes are seen as whole and stable.
+
+---
+
+**In Short:**  
+Gestalt helps designers create **clear, organized, and meaningful visuals** by using how our eyes naturally group elements.
+
