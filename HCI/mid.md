@@ -181,4 +181,52 @@ Chair design, screen height, keyboard shape.
 
 ---
 ------------------------------------------------------------------------------------------------
--------------------------------------lecture 3 main-------------------------------------
+-------------------------------------lecture 4 main-------------------------------------
+## 🔄 Product Development Life Cycle (Simple Steps)
+
+---
+
+### 1. 🧠 Brainstorm  
+**Think of ideas**  
+- Come up with new product or feature ideas.  
+**Example:**  
+"Let’s make a mobile app for food delivery."
+
+---
+
+### 2. 📝 Define  
+**Clear plan & goal**  
+- Set product goals, features, and user needs.  
+**Example:**  
+"Users can browse food, place orders, and track delivery."
+
+---
+
+### 3. 🎨 Design  
+**Create how it looks & works**  
+- Make wireframes, UI/UX designs, and user flow.  
+**Example:**  
+Design buttons, layout, colors of the app.
+
+---
+
+### 4. 🧪 Test  
+**Check if it works well**  
+- Test with real users or QA team.  
+**Example:**  
+Does the order button work? Is the app fast?
+
+---
+
+### 5. 🚀 Launch  
+**Release to the world**  
+- Publish the product to users.  
+**Example:**  
+Upload to App Store / Play Store.
+
+---
+
+**Why it matters:**  
+Following these steps helps build a **useful, usable, and successful product**.
+------------------------------------------------------------------------------------------------
+-------------------------------------lecture 4 main-------------------------------------
