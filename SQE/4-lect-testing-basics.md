@@ -62,3 +62,67 @@ Software Testing is the evaluation of software against the requirements gathered
 ---
 
 By completing **Alpha**, **Beta**, and **Gamma** testing, software developers ensure that their product is well-tested, meets user requirements, and is ready for release.
+
+---
+# ✅ Validation vs Verification
+
+In software testing, **Validation** and **Verification** are two distinct processes that help ensure the software meets the requirements and works as expected. While both are critical in ensuring software quality, they differ in their focus and purpose.
+
+---
+
+## ✅ What is Verification?
+
+**Verification** is the process of checking if the software meets the specified requirements and design specifications. It is focused on **building the product right** and ensures that the software is being developed correctly according to the requirements.
+
+### Key Characteristics of Verification:
+- **Focuses on Process:** Ensures the software development process is being followed correctly.
+- **Answer to "Are we building the product right?"**
+- **Performed early in the development cycle** to detect issues as soon as possible.
+- **Reviews documentation**, code, and design.
+
+### Example of Verification:
+In the development of a **login page** for an e-commerce website, the development team verifies if the code correctly implements all features as per the design documents:
+- The login button is placed correctly.
+- The design matches the requirements.
+- There is proper validation for the email field (e.g., proper email format).
+
+> **Verification Example**:  
+> The **SQA team** reviews the design documents and confirms that the login form design has been implemented accurately in the code.
+
+---
+
+## ✅ What is Validation?
+
+**Validation** is the process of checking if the software meets the user's needs and fulfills its intended purpose. It ensures that **the right product is being built** by confirming that the software actually solves the problem it was intended to solve.
+
+### Key Characteristics of Validation:
+- **Focuses on Product:** Ensures the final product fulfills user requirements.
+- **Answer to "Are we building the right product?"**
+- **Performed later in the development cycle**, typically after the software has been developed.
+- **Testing user scenarios** and **user acceptance testing**.
+
+### Example of Validation:
+In the case of the **login page** on the e-commerce website, the team validates if the page functions well from the user's perspective:
+- Users can successfully log in with valid credentials.
+- Invalid credentials trigger the appropriate error message.
+- The page is responsive and works well on mobile devices.
+
+> **Validation Example**:  
+> After the development is complete, **real users** test the login page to ensure it performs as expected, allowing users to securely log in and access their accounts.
+
+---
+
+## 📊 Key Differences Between Validation and Verification:
+
+| **Aspect**           | **Verification**                                   | **Validation**                                     |
+|----------------------|-----------------------------------------------------|----------------------------------------------------|
+| **Focus**            | Ensures the product is being built correctly       | Ensures the product meets user needs              |
+| **Key Question**     | "Are we building the product right?"               | "Are we building the right product?"              |
+| **Timing**           | Performed early in the development process         | Performed later, typically after development      |
+| **Methods**          | Reviews code, design documents, and specifications | User testing, acceptance testing, real-world checks|
+| **Example**          | Reviewing the code to ensure it meets the design   | Testing the product to ensure it fulfills user needs|
+
+---
+
+By performing **Verification** and **Validation**, software development teams ensure that the product is both **built correctly** and **meets the users' needs**.
+
